@@ -1,0 +1,8 @@
+object frmMultiFlash: TfrmMultiFlash
+  Left = 525
+  Height = 753
+  Top = 179
+  Width = 944
+  Caption = 'Утилита установки ПО'
+  LCLVersion = '2.2.4.0'
+end
