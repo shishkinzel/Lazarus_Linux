@@ -37,6 +37,7 @@
         <Filename Value="multiflash.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMultiFlash"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MultiFlash"/>
       </Unit>

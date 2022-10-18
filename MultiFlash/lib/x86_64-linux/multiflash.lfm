@@ -1,8 +1,160 @@
 object frmMultiFlash: TfrmMultiFlash
-  Left = 525
-  Height = 753
-  Top = 179
-  Width = 944
+  Left = 370
+  Height = 451
+  Top = 115
+  Width = 1364
   Caption = 'Утилита установки ПО'
+  ClientHeight = 451
+  ClientWidth = 1364
+  OnCreate = FormCreate
   LCLVersion = '2.2.4.0'
+  object pnTop: TPanel
+    Left = 0
+    Height = 21
+    Top = 0
+    Width = 1364
+    Align = alTop
+    TabOrder = 0
+  end
+  object spTop: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 21
+    Width = 1364
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+  object pnBotton: TPanel
+    Left = 0
+    Height = 60
+    Top = 391
+    Width = 1364
+    Align = alBottom
+    TabOrder = 2
+  end
+  object spBotton: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 388
+    Width = 1364
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object pnLeft: TPanel
+    Left = 0
+    Height = 364
+    Top = 24
+    Width = 133
+    Align = alLeft
+    Alignment = taLeftJustify
+    ClientHeight = 364
+    ClientWidth = 133
+    TabOrder = 4
+    object gbLeft: TGroupBox
+      Left = 1
+      Height = 362
+      Top = 1
+      Width = 131
+      Align = alClient
+      Caption = 'Пуск'
+      ClientHeight = 345
+      ClientWidth = 129
+      TabOrder = 0
+      object Button1: TButton
+        Left = 25
+        Height = 25
+        Top = 39
+        Width = 75
+        Caption = '№1'
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 25
+        Height = 25
+        Top = 98
+        Width = 75
+        Caption = '№2'
+        TabOrder = 1
+      end
+      object Button4: TButton
+        Left = 25
+        Height = 25
+        Top = 218
+        Width = 75
+        Caption = '№4'
+        TabOrder = 2
+      end
+      object Button5: TButton
+        Left = 25
+        Height = 25
+        Top = 278
+        Width = 75
+        Caption = '№5'
+        TabOrder = 3
+      end
+      object Button3: TButton
+        Left = 25
+        Height = 25
+        Top = 158
+        Width = 75
+        Caption = '№3'
+        TabOrder = 4
+      end
+    end
+  end
+  object spLeft: TSplitter
+    Left = 133
+    Height = 364
+    Top = 24
+    Width = 3
+  end
+  object pnRight: TPanel
+    Left = 1156
+    Height = 364
+    Top = 24
+    Width = 208
+    Align = alRight
+    Alignment = taLeftJustify
+    ClientHeight = 364
+    ClientWidth = 208
+    TabOrder = 6
+    object gbRight: TGroupBox
+      Left = 1
+      Height = 362
+      Top = 1
+      Width = 206
+      Align = alClient
+      Caption = 'Настройки'
+      TabOrder = 0
+    end
+  end
+  object spRight: TSplitter
+    Left = 1153
+    Height = 364
+    Top = 24
+    Width = 3
+    Align = alRight
+    ResizeAnchor = akRight
+  end
+  object pnZenter: TPanel
+    Left = 136
+    Height = 364
+    Top = 24
+    Width = 1017
+    Align = alClient
+    ClientHeight = 364
+    ClientWidth = 1017
+    TabOrder = 8
+    object gbZentr: TGroupBox
+      Left = 1
+      Height = 362
+      Top = 1
+      Width = 1015
+      Align = alClient
+      Caption = 'Окно ввода данных прошивки'
+      TabOrder = 0
+    end
+  end
 end

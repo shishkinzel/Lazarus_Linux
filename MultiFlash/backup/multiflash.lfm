@@ -1,0 +1,118 @@
+object frmMultiFlash: TfrmMultiFlash
+  Left = 215
+  Height = 810
+  Top = 134
+  Width = 1364
+  Caption = 'Утилита установки ПО'
+  ClientHeight = 810
+  ClientWidth = 1364
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object pnTop: TPanel
+    Left = 0
+    Height = 21
+    Top = 0
+    Width = 1364
+    Align = alTop
+    TabOrder = 0
+  end
+  object spTop: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 21
+    Width = 1364
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+  object pnBotton: TPanel
+    Left = 0
+    Height = 23
+    Top = 787
+    Width = 1364
+    Align = alBottom
+    TabOrder = 2
+  end
+  object spBotton: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 3
+    Top = 784
+    Width = 1364
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object pnLeft: TPanel
+    Left = 0
+    Height = 760
+    Top = 24
+    Width = 208
+    Align = alLeft
+    Alignment = taLeftJustify
+    ClientHeight = 760
+    ClientWidth = 208
+    TabOrder = 4
+    object gbLeft: TGroupBox
+      Left = 1
+      Height = 758
+      Top = 1
+      Width = 206
+      Align = alClient
+      Caption = 'Пуск'
+      TabOrder = 0
+    end
+  end
+  object spLeft: TSplitter
+    Left = 208
+    Height = 760
+    Top = 24
+    Width = 3
+  end
+  object pnRight: TPanel
+    Left = 1156
+    Height = 760
+    Top = 24
+    Width = 208
+    Align = alRight
+    Alignment = taLeftJustify
+    ClientHeight = 760
+    ClientWidth = 208
+    TabOrder = 6
+    object gbRight: TGroupBox
+      Left = 1
+      Height = 758
+      Top = 1
+      Width = 206
+      Align = alClient
+      Caption = 'Настройки'
+      TabOrder = 0
+    end
+  end
+  object spRight: TSplitter
+    Left = 1153
+    Height = 760
+    Top = 24
+    Width = 3
+    Align = alRight
+    ResizeAnchor = akRight
+  end
+  object pnZenter: TPanel
+    Left = 211
+    Height = 760
+    Top = 24
+    Width = 942
+    Align = alClient
+    ClientHeight = 760
+    ClientWidth = 942
+    TabOrder = 8
+    object gbZentr: TGroupBox
+      Left = 1
+      Height = 758
+      Top = 1
+      Width = 940
+      Align = alClient
+      Caption = 'Окно ввода данных прошивки'
+      TabOrder = 0
+    end
+  end
+end
